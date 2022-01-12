@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.image1{
+width: 150px;
+height: 80px;
+padding: 0px;
+}
+.div{
+    color: rgba(239, 244, 248, 0.993);
+}
+
+/*navbar coloring.....................................................*/
+
+.power{
+    color: rgb(211, 50, 82);
+}
+
+.part1{
+    background-image: url(tambolam.jpg);
+    background-size: cover;
+    height: 120vh;
+    width: 100vh;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: multi;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes multi {
+    0%{
+        background-image: url(m1.jpg);
+    }
+    25%{
+        background-image: url(m2.jpg);
+    }
+    50%{background-image: url(m3.jpg);
+    }
+    75%{
+        background-image: url(m4.jpg);
+
+    }
+    85%{
+        background-image: url(m5.jpg);
+    }
+    100%{
+        background-image: url(m6.jpg);
+    }
+}
+.part1-h1{
+    color: coral;
+    text-shadow: 2px 2px 2px #080808;
+    animation-name: colorful;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+    @keyframes colorful {
+        0% {
+          color: blue;
+        }
+        25%{
+            color: rgb(47, 122, 124);
+        }
+        50%{
+            color: aliceblue;
+        }
+        100% {
+          color: rgb(243, 127, 19);
+        } 
+      }
+
+
+.part1-para{
+    color: aqua;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-style: italic;
+
+}
+/* this upper is used for nav bar backgroung image*/
+.upper{
+    background-image: url(wedding.jpg);
+    background-size: cover;
+}
+/* makeup for signup form*/
+
+.part2{
+    
+    text-align: center;
+    
+   
+  }
+
+
+/* create another page with three images below part3,4,5*/
+.part3{
+    background-size: cover;
+    height: 50vh;
+    background-image: url("part3.jpg");
+    width: 40vh;
+    margin-right: auto;
+    
+
+}
+.part4{
+    background: url(part4.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 40vh;
+    margin-right: auto;
+    
+    
+
+}
+.part5{
+    background: url(part5.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 40vh;
+    
+    
+}
+.gan{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    background-color: rgba(224, 204, 204, 0.932);
+
+    
+}
+.gan2{
+    color: rgb(224, 28, 68);
+    font-style: italic;
+    /*font-family: sans-serif;*/
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+   
+}
+.for-photo1{
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+.for-photo2{
+    margin: auto;
+
+}
+/*below main page the new backroung page */
+/*.container1{
+    background-image: url(wedding.jpg);
+    background-size: cover;
+}*/
+.whole{
+    background-image: url(background6.jpg);
+    background-size: cover;
+    
+}
+.response-page{
+    background-image: url(bridegroom.jpg);
+    background-size: cover;
+    margin-right: 0px;
+    border-radius: 0.2cm;
+    border-width: 0.2cm;
+    border-style: groove;
+    /*border-color: rgb(27, 119, 88);*/
+    border-color: rgb(121, 133, 124);
+   
+    
+   
+    
+}
+.part2-main{
+    
+    border-style: solid;
+    border-width: 0.25cm;
+    border-color: rgba(31, 52, 121, 0.815);
+    color: rgba(7, 48, 49, 0.918);
+    padding-left: 55px;
+    padding-right: 240px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-image: url(perfect\ background.jpg);
+    background-size: cover;
+    opacity: 1;
+    
+}
+
+.space{
+    margin-right: -15px;
+}
+    
+    
+    
+    
+    
+
+
+.form1{
+    background-color: rgba(201, 139, 58, 0.863);
+    border-radius: 0.2cm;
+    border-width: 0.2cm;
+    border-style: groove;
+    border-color: rgb(121, 133, 124);
+    /*border-color: rgb(27, 119, 88);*/
+   
+}
+.lastpage1{
+    margin-left: 0px;
+}
+.lastpage2{
+    margin-right: 0px;
+}
+/*address design....................................*/
+.main-address{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    background-color: rgb(216, 209, 109);
+    border-color: rgb(158, 167, 45);
+    border-width: medium;
+    border-style: solid;
+}
+
+.address1{
+    text-align: center;
+    /*margin-left: 2%;*/
+}
+.address2{
+    text-align: center;
+    /*padding-left: 10px;*/
+
+    
+    
+}
+
+/* creating our partners part..................*/
+
+body,html {
+    height: 100%;
+    background-color: white;
+  }
+  
+  .container {
+    overflow: hidden;
+    padding-bottom: 5%;
+    
+  }
+  .slider{
+    animation: slidein 40s linear infinite;
+    white-space: nowrap;
+    
+    
+  }
+  .logos {
+    /*width: 100%;*/
+    display: inline-block;
+    margin: 0px 0;
+    
+  }
+  .fab1{
+    width: calc(100% / 5);
+    animation: fade-in 0.5s 
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+.text-center{
+    color:rgb(97, 224, 224);
+    background-color: #080808;
+}  
+
+
+  /*our media partners ......................................................*/
+
+.position{
+    padding-right: 50%;
+    padding-left: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.fa-whatsapp-square{
+    color: rgb(75, 192, 104);
+    width: 50px;
+    height: 50px;
+
+}
+.fa-facebook-square{
+    color: rgb(83, 95, 204);
+    width: 50px;
+    height: 50px;
+
+}
+.fa-instagram-square{
+    color: rgba(218, 97, 157, 0.904);
+    width: 50px;
+    height: 50px;
+
+}
+.fa-youtube-square{
+    color: rgba(235, 36, 36, 0.856);
+    width: 50px;
+    height: 50px;
+
+}
+
+.p2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.p1{
+    width: 100px;
+  }
+
+
+
+
+    
+   
+
+
+
